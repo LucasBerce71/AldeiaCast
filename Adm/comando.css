@@ -1,0 +1,120 @@
+
+.div_perguntas{
+    height: 320px;
+    width: 700px;
+    height: 360px;
+    margin-left: 210px;
+    border: 1px solid rgba(212, 209, 209, 0.767);
+    border-radius: 20px;
+}
+.div_perguntas h4{
+    margin-left: 35px;
+    margin-top: 45px;
+
+}
+.div_perguntas input {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+#resp{
+    position: absolute;
+    margin-left: 57px;
+    margin-top: -29px
+}
+
+#alt{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 57px;
+}
+
+#alt_2{
+    position: absolute;
+    margin-top: -31px;
+    margin-left: 55px;
+}
+
+#alt_3{
+    position: absolute;
+    margin-top: -31px;
+    margin-left: 55px;
+}
+
+.alts{
+    position: absolute;
+    margin-top: -31px;
+    margin-left: 55px;
+    color: #fff;;
+}
+.botao{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#confirmaP1{
+    width: 298px;
+    font-size: 14px;
+    margin-left: 380px;
+    margin-top: 10px;;
+}
+
+
+
+.pontos{
+    margin-left: 940px;
+    margin-top: -64px;
+}
+
+.botao{
+    height: 75px;
+}
+
+#img{
+
+    height: 90px;
+
+}
+
+/* Responsive version */
+@media(min-width: 414px) and (max-width: 736px){ 
+    /* IPHONE 6/7/8 PLUS */
+    *{
+        overflow-x: hidden;
+    }
+    .div_perguntas{
+        overflow: hidden;
+        width: 390px;
+        height: 420px;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 941px){
+    *{
+        overflow-x: hidden;
+    }
+
+    .div_perguntas{
+        overflow: hidden;
+        width: 305px;
+        height: 350px;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 941px){
+    .div_perguntas{
+        overflow: hidden;
+        width: 350px;
+        height: 420px;
+    }
+}
+
+@media(min-width: 425px) and (max-width: 941px){
+    .div_perguntas{
+        overflow: hidden;
+        width: 405px;
+        height: 420px;
+    }
+}
